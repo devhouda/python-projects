@@ -7,7 +7,7 @@ import time
 def send_message():
 
     resp = requests.post('https://textbelt.com/text', {
-        'phone': '0791419545',
+        'phone': '5555555',
         'message': 'Hey Bitch',
         'key': 'textbelt',
     })
